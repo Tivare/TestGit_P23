@@ -1,9 +1,5 @@
-
-
-def print_hi(name):
-    print(f'Hi, {name}')
-
+from calc import sum
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
+    print('Hello')
+    print(f"sum = {sum(12, 23)}")
